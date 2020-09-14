@@ -9,7 +9,7 @@ import psycopg2
 import json
 
 def db_connect():
-    con = psycopg2.connect(dbname = "reestr", user='postgres', password='rossgress', port=5432, host='joefox.dyndns.org')
+    con = psycopg2.connect(dbname = "test", user='postgres', password='rossgress', port=9999, host='localhost')
 
     return con
 
